@@ -4,13 +4,18 @@ body {
 }
 h1 {
   font-family: Lucida Console, Monaco, monospace;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 h2, h3 {
   font-family: Courier New, Monaco, monospace;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 p {
   font-family: Monaco, Courier New, monospace;
 }
+
 
 
 
