@@ -1,8 +1,5 @@
 body {
-  background-color: lightblue;
+  background-image: url("waves.png");
+  text-color: white;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
-}
