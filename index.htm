@@ -27,15 +27,17 @@
 			  outline-style: outset;
 			  max-width: 182px
 		  }	
-		  img.vroom {
-				border: 5px outset lightgrey;
-				display: inline-block;
-   				margin: 5px 20px;
-    			padding: 5px;
-			}
-		  p.hidden {
-			  text-align:center;
-		  }
+		  .column {
+  			  float: left;
+ 			  width: 33.33%;
+ 			  padding: 5px;
+}
+
+		  .row::after {
+  			  content: "";
+  			  clear: both;
+ 			  display: table;
+}
 	  </style>
 
 	  <h1> Welcome to my Web Page! </h1>
@@ -51,7 +53,17 @@
 	<br>I have too many favorite automobiles to list, but if I had to pick, my favorite Italian car is a Ferrari Dino, my favorite German car is a Porsche 911 classic, and my favorite American car is the C3 Corvette 68-72. 
 	<br>
 	<br>
-	<img class="vroom" src="ferrari-dino-246-gt.jpg" alt="Ferrari Dino" style="width:338px;height:220px;">	 <p class="hidden"> </p> <img class="vroom" src="1969-porsche-911.PNG" alt="Porsche 911" style="width:338px;height:220px;"> <p class="hidden"> 	</p> <img class="vroom" src="1969_Corvette.PNG" alt="Chevrolet Corvette C3" style="width:338px;height:220px;">
+	<div class="row">
+  <div class="column">
+    <img src="ferrari-dino-246-gt.jpg" alt="Ferrari Dino" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="1969-porsche-911.PNG" alt="Porsche 911" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="1969_Corvette.PNG" alt="Chevrolet Corvette C3" style="width:100%">
+  </div>
+</div>
 	<br>
 	<br>
 	<br>My favorite film is "Twelve O'Clock High," released in 1949 and stars notable classic Hollywood actor Gregory Peck as Frank Savage, a Brigadier General who takes command of a B-17 bomber unit hit with low morale in an attempt to get the men back into fighting shape.
@@ -66,6 +78,7 @@
 	</footer>
   </body>
 </html>
+
 
 
 
