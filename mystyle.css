@@ -6,9 +6,13 @@ h1 {
   font-family: Lucida Console, Monaco, monospace;
   text-decoration-line: underline;
   text-decoration-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 h2, h3 {
   font-family: Courier New, Monaco, monospace;
+  margin-left: 50px;
+  margin-right: 50px;
   text-decoration-line: underline;
   text-decoration-style: solid;
 }
@@ -16,6 +20,7 @@ p {
   font-family: Monaco, Courier New, monospace;
   line-height: 1.5
 }
+
 
 
 
