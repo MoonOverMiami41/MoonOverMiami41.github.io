@@ -25,6 +25,7 @@ table {
 	margin-right: 50px;
 }
 table, th, td {
+  font-family: Courier New, Monaco, monospace;
   border: 5px;
   border-style: outset;
   border-color: #4737d4;
@@ -50,6 +51,7 @@ td.good {
 td.passing {
   color: gold;
 }
+
 
 
 
