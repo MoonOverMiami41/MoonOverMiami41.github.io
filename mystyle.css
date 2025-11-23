@@ -38,6 +38,9 @@ th, td {
 th {
   color: black;
 }
+td.excellent {
+  color: lime;
+}
 td.great {
   color: limegreen;
 }
@@ -47,6 +50,7 @@ td.good {
 td.passing {
   color: gold;
 }
+
 
 
 
