@@ -20,7 +20,10 @@ p {
   font-family: Monaco, Courier New, monospace;
   line-height: 1.5
 }
-
+table {
+  margin-left: 50px;
+	margin-right: 50px;
+}
 table, th, td {
   border: 5px;
   border-style: outset;
@@ -44,6 +47,7 @@ td.good {
 td.passing {
   color: gold;
 }
+
 
 
 
