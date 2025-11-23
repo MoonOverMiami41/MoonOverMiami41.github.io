@@ -32,6 +32,9 @@ th, td {
   padding: 15px;
 }
 
+th {
+  color: black;
+}
 td.great {
   color: limegreen;
 }
@@ -41,6 +44,7 @@ td.good {
 td.passing {
   color: gold;
 }
+
 
 
 
